@@ -4,7 +4,7 @@
 !URxvt*depth: 32
 
 ! Enable transparency and blurring
-URxvt*transparent: true
+URxvt*transparent: false
 URxvt*shading: 85
 URxvt*blurRadius: 5
 
