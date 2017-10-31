@@ -1,4 +1,4 @@
-i-- Show OSD clock
+-- Show OSD clock
 --
 -- Shows OSD sclock periodicaly with many configurable options,
 -- OSD options like duration, alignment, border, scale could be set in ~/.config/mpv/mpv.conf
