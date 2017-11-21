@@ -37,8 +37,8 @@ browser = luakit
 foreground      = #babdb6
 foreground_bold = #babdb6
 cursor          = #babdb6
-#background = rgba(0, 0, 0, 0.10)
-background = #222222
+background = rgba(0, 0, 0, 0.10)
+#background = #222222
 
 # black
 color0  = #2e3436
