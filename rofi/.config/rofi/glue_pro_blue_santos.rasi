@@ -20,7 +20,7 @@
     background:                  rgba ( 57, 57, 57, 90 % );
     bordercolor:                 rgba ( 78, 78, 78, 40% );
     alternate-normal-foreground: @foreground;
-    normal-background:           rgba ( 57, 57, 57, 100 % );
+    normal-background:           rgba ( 57, 57, 57, 40 % );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
     selected-normal-background:  rgba ( 57, 120, 180, 100 % );
     border-color:                @foreground;
