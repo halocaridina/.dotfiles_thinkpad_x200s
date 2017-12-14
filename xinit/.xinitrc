@@ -37,7 +37,7 @@ i3-bling)
     exec /usr/bin/i3 -c /home/srsantos/.i3/bones.conf
     ;;
 i3-debug)
-    exec /usr/bin/i3 -c /home/srsantos/.i3/bling.conf -V >> /tmp/i3log-$(date +'%F-%k-%M-%S') 2>&1
+    exec /usr/bin/i3 -c /home/srsantos/.i3/bones.conf -V >> /tmp/i3log-$(date +'%F-%k-%M-%S') 2>&1
     ;;
 termite)
     exec /usr/local/bin/termite_xinit.sh
