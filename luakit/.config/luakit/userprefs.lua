@@ -1,17 +1,15 @@
--- Settings (the commented ones do not [yet] work)
+-- Settings (commented ones start with double --)
 local settings = require "settings"
 
 settings.window.home_page                             = "about:blank"
 settings.window.scroll_step                           = 60
 settings.window.zoom_step                             = 0.2
-settings.window.new_window_size                       = "1366x768"
+settings.window.new_window_size                       = "1440x900"
 settings.window.load_etc_hosts                        = false
 -- settings.vertical_tabs.sidebar_width                  = 200
 
--- settings.on["all"].webview.zoom_level                 = 110
--- settings.on["all"].webview.enable_webgl               = true
-settings.webview.zoom_level                          = 115
-settings.webview.enable_webgl                        = true
+settings.webview.zoom_level                           = 115
+settings.webview.enable_webgl                         = true
 settings.on["youtube.com"].webview.enable_javascript  = true
 settings.on["youtube.com"].webview.enable_plugins     = true
 
