@@ -24,7 +24,7 @@ order += "battery 0"
 #order += "cpu_usage"
 order += "cpu_temperature 0"
 order += "load"
-#order += "volume master"
+order += "volume master"
 order += "tztime local"
 
 path_exists SCREEN_LOCK {
