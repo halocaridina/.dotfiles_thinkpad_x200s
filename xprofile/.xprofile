@@ -4,6 +4,9 @@ if [ -n "$DESKTOP_SESSION" ]; then
     export SSH_AUTH_SOCK
 fi
 
+# Start geolocation service
+/usr/lib/geoclue-2.0/demos/agent &
+
 # Start the rxvt daemon in the background
 /usr/bin/urxvtd -q -f -o
 
