@@ -26,4 +26,5 @@ fi
 /usr/bin/xautolock -time 30 -locker "systemctl suspend" -detectsleep &
 
 # Set screenlock for all desktops
-/usr/bin/xss-lock -- /usr/bin/i3lock-fancy -f Terminus-\(TTF\)-Bold -t "Hello Scott, waiting for your fingerprint..." &
+/usr/bin/xss-lock -- /usr/bin/i3lock -f -b -i /home/srsantos/.i3/wallpapers/Black_Burst_Info_1440x900.png &
+###/usr/bin/xss-lock -- /usr/bin/i3lock-fancy -f Terminus-\(TTF\)-Bold -t "Scott R. Santos; santos@auburn.edu; 334-663-0287" &

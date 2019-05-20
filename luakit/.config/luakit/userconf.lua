@@ -7,11 +7,11 @@ local settings = require "settings"
 settings.window.home_page                             = "about:blank"
 settings.window.scroll_step                           = 60
 settings.window.zoom_step                             = 0.2
-settings.window.new_window_size                       = "1366x768"
+settings.window.new_window_size                       = "1440x900"
 settings.window.load_etc_hosts                        = false
 
-settings.webview.zoom_level                           = 130
-settings.webview.zoom_text_only                       = true
+settings.webview.zoom_level                           = 120
+settings.webview.zoom_text_only                       = false
 settings.webview.enable_webgl                         = true
 
 settings.on["youtube.com"].webview.enable_javascript  = true

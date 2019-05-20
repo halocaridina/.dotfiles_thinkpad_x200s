@@ -98,14 +98,10 @@ alias l='ls -Flh'
 alias ll='ls -Falh'
 alias history='history -E'
 
-alias mnt_office_intel="sshfs srsantos@office_intel:/Users/srsantos /home/srsantos/Documents/Remote_FS/Office_intel && /usr/bin/notify-send -u low 'Remote FS Mounted' 'Now accessible.' -i 
-/usr/share/icons/gnome-colors-common/scalable/places/network-server.svg"
-alias mnt_ubuntu_server="sshfs srsantos@ubuntu_server:/home/srsantos /home/srsantos/Documents/Remote_FS/Ubuntu_server && /usr/bin/notify-send -u low 'Remote FS Mounted' 'Now accessible.' -i 
-/usr/share/icons/gnome-colors-common/scalable/places/network-server.svg"
-alias umnt_office_intel="fusermount -u /home/srsantos/Documents/Remote_FS/Office_intel && /usr/bin/notify-send -u low 'Remote FS Unmounted' 'Bye, Bye.' -i 
-/usr/share/icons/gnome-colors-common/scalable/places/network-server.svg"
-alias umnt_ubuntu_server="fusermount -u /home/srsantos/Documents/Remote_FS/Ubuntu_server && /usr/bin/notify-send -u low 'Remote FS Unmounted' 'Bye, Bye.' -i 
-/usr/share/icons/gnome-colors-common/scalable/places/network-server.svg"
+alias mnt_office_intel="sshfs srsantos@office_intel:/Users/srsantos /home/srsantos/Documents/Remote_FS/Office_intel && /usr/bin/notify-send -u low 'Remote FS Mounted' 'Now accessible.' -i /usr/share/icons/gnome-colors-common/scalable/places/network-server.svg"
+alias mnt_ubuntu_server="sshfs srsantos@ubuntu_server:/home/srsantos /home/srsantos/Documents/Remote_FS/Ubuntu_server && /usr/bin/notify-send -u low 'Remote FS Mounted' 'Now accessible.' -i /usr/share/icons/gnome-colors-common/scalable/places/network-server.svg"
+alias umnt_office_intel="fusermount -u /home/srsantos/Documents/Remote_FS/Office_intel && /usr/bin/notify-send -u low 'Remote FS Unmounted' 'Bye, Bye.' -i /usr/share/icons/gnome-colors-common/scalable/places/network-server.svg"
+alias umnt_ubuntu_server="fusermount -u /home/srsantos/Documents/Remote_FS/Ubuntu_server && /usr/bin/notify-send -u low 'Remote FS Unmounted' 'Bye, Bye.' -i /usr/share/icons/gnome-colors-common/scalable/places/network-server.svg"
 
 alias ubuntu='ssh ubuntu'
 alias office='ssh office'
@@ -135,10 +131,8 @@ alias music_mpv='mpv --no-video'
 alias music_mpv_random_playlist='mpv --no-video --shuffle --playlist <(find "$PWD" -type f)'
 
 alias webcam_screenshot='mpv av://v4l2:/dev/video0'
-alias webcam_mencoder_video='mencoder tv:// -tv driver=v4l2:width=640:height=480:device=/dev/video0:forceaudio:immediatemode=0:alsa:adevice=hw.0,0 -ofps 30 -ovc lavc -lavcopts vcodec=mjpeg -oac mp3lame 
--lameopts cbr:br=64:mode=3 -o'
-alias webcam_ffmpeg_video='ffmpeg -f v4l2 -video_size 640x480 -thread_queue_size 1024 -pixel_format uyvy422 -framerate 29.97 -i /dev/video0 -f alsa -thread_queue_size 1024 -i hw:0,0 -acodec libmp3lame -ab 
-96k -c:v libx264 -aspect 4:3 -strict -2 -y -threads 4'
+alias webcam_mencoder_video='mencoder tv:// -tv driver=v4l2:width=640:height=480:device=/dev/video0:forceaudio:immediatemode=0:alsa:adevice=hw.0,0 -ofps 30 -ovc lavc -lavcopts vcodec=mjpeg -oac mp3lame -lameopts cbr:br=64:mode=3 -o'
+alias webcam_ffmpeg_video='ffmpeg -f v4l2 -video_size 640x480 -thread_queue_size 1024 -pixel_format uyvy422 -framerate 29.97 -i /dev/video0 -f alsa -thread_queue_size 1024 -i hw:0,0 -acodec libmp3lame -ab 96k -c:v libx264 -aspect 4:3 -strict -2 -y -threads 4'
 
 ## Export variables
 export PAGER='vimpager'

@@ -14,7 +14,7 @@ general {
         color_bad = "#EF2929"
 }
 
-order += "run_watch VPN"
+#order += "run_watch VPN"
 order += "path_exists SCREEN_LOCK"
 #order += "wireless _first_"
 #order += "ethernet _first_"

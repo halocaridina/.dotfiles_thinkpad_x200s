@@ -9,7 +9,7 @@ allow_bold = false
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = true
-font = xos4 Terminus 9
+font = xos4 Terminus 14px
 scrollback_lines = 65535
 search_wrap = true
 icon_name = terminal
@@ -37,7 +37,7 @@ browser = luakit
 foreground      = #babdb6
 foreground_bold = #babdb6
 cursor          = #babdb6
-background = rgba(0, 0, 0, 0.10)
+background = rgba(40, 40, 40, 0.40)
 #background = #222222
 
 # black

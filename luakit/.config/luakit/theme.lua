@@ -78,9 +78,9 @@ theme.trust_fg          = "#009900"
 theme.notrust_fg        = "#990000"
 
 -- General colour pairings
-theme.ok = { fg = "#fff", bg = "#FFF" }      -- Change back first to #000 for black in pattern searches
+theme.ok = { fg = "#fff", bg = "#FFF" }      -- Change back first to #000 from #fff for black in pattern searches
 theme.warn = { fg = "#F00", bg = "#FFF" }
-theme.error = { fg = "#DB0", bg = "#F00" }   -- Change back first to #FFF for white in pattern searches
+theme.error = { fg = "#DB0", bg = "#F00" }   -- Change back first to #FFF from #DB0 for white in pattern searches
 
 return theme
 
