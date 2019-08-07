@@ -6,7 +6,7 @@ local theme = {}
 
 -- Default settings
 --theme.font = "14px Roboto Condensed, Regular"
-theme.font = "14px xos4 Terminus"
+theme.font = "14px PragmataPro for Powerline, Bold"
 theme.fg   = "#000"
 theme.bg   = "#D3D3D3"
 
