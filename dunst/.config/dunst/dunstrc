@@ -1,7 +1,7 @@
 [global]
     markup = yes
-    font = "PragmataPro for Powerline 16"
-    format = "<span font="PragmataPro for Powerline 16">%s</span>\n<span font="PragmataPro for Powerline 12">%b</span>"
+    font = "Roboto Mono for Powerline Bold 16"
+    format = "<span font="Roboto Mono for Powerline Bold 16">%s</span>\n<span font="Roboto Mono for Powerline Bold 12">%b</span>"
     alignment = center
 
     bounce_freq = 0
@@ -65,23 +65,23 @@
 
 [Xfce volume daemon]
     appname = Xfce volume daemon
-    format = "<span font="PragmataPro for Powerline 16">%s</span><span font="PragmataPro for Powerline 12">%b</span>"
+    format = "<span font="Roboto Mono for Powerline Bold 16">%s</span><span font="Roboto Mono for Powerline Bold 12">%b</span>"
 
 [pasystray]
     appname = pasystray
-    format = "<span font="PragmataPro for Powerline 16">%s</span><span font="PragmataPro for Powerline 12">%b</span>"
+    format = "<span font="Roboto Mono for Powerline Bold 16">%s</span><span font="Roboto Mono for Powerline Bold 12">%b</span>"
 
 [update_arch_notification.sh]
     summary = "No updates for Archlinux"
-    format = "<span font="PragmataPro for Powerline 16">%s</span><span font="PragmataPro for Powerline 12">%b</span>"
+    format = "<span font="Roboto Mono for Powerline Bold 16">%s</span><span font="Roboto Mono for Powerline Bold 12">%b</span>"
 
 [update_aur_notification.sh]
     summary = "No updates from AUR"
-    format = "<span font="PragmataPro for Powerline 16">%s</span><span font="PragmataPro for Powerline 12">%b</span>"
+    format = "<span font="Roboto Mono for Powerline Bold 16">%s</span><span font="Roboto Mono for Powerline Bold 12">%b</span>"
 
 [ChangeBrightness]
-    appname = ChangeBrightness
-    format = "<span font="PragmataPro for Powerline 16">%s</span><span font="PragmataPro for Powerline 12">%b</span>"
+    appname = notify-send.sh
+    format = "<span font="Roboto Mono for Powerline Bold 16">%s</span><span font="Roboto Mono for Powerline Bold 12">%b</span>"
 
 
 
