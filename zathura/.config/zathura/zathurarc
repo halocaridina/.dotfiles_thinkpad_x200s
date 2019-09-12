@@ -1,5 +1,6 @@
 # GENERAL BEHAVIORS
-set font "Roboto Mono for Powerline, Bold 9"
+##set font "Roboto Mono for Powerline, Bold 9"
+set font "Iosevka Term SS03, Bold 9"
 set adjust-open width
 set scroll-wrap false
 set abort-clear-search true
