@@ -25,8 +25,9 @@ fi
 #fi
 
 # Start gnome-keyring-daemon
-#eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets)
-#export SSH_AUTH_SOCK
+dbus-update-activation-environment --systemd DISPLAY
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets)
+export SSH_AUTH_SOCK
 
 # Finally start a WM of your choice, with i3 bling being the default
 case $WM in
