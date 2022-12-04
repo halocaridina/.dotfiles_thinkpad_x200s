@@ -21,9 +21,9 @@ order += "path_exists SCREEN_LOCK"
 #order += "disk /"
 #order += "disk /home"
 order += "battery 0"
-#order += "cpu_usage"
-order += "cpu_temperature 0"
+order += "cpu_usage"
 order += "load"
+order += "cpu_temperature 0"
 order += "volume master"
 order += "tztime local"
 
@@ -76,7 +76,7 @@ tztime local {
 }
 
 cpu_usage {
-    format = " : %usage "
+    format = " : %usage "
     }
 
 load {
