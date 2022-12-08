@@ -6,7 +6,8 @@
 
     bounce_freq = 0
     follow = mouse
-    geometry = "0x5-8+30"
+    width = 400
+    height = 300
     horizontal_padding = 8
     idle_threshold = 120
     ignore_newline = false
