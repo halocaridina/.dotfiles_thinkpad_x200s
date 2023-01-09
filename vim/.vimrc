@@ -32,7 +32,7 @@ Plugin 'SearchComplete'
 
 Plugin 'PotatoesMaster/i3-vim-syntax'
 
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
 
 Plugin 'smancill/conky-syntax.vim'
 
@@ -127,8 +127,9 @@ if has('statusline')
 endif
 
 " Set the status bar using the airline plugin
-:let g:airline_theme='raven'
+let g:airline_theme='minimalist'
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 set backspace=indent,eol,start
 set linespace=0
